@@ -22,3 +22,9 @@ SELECT [Id]
       ,[IsNoPunch]
       ,[IsDataRectified]
   FROM [JDPROJECT].[Payroll].[BiometricAttendance]
+
+
+
+= Table.FromRows(Json.Document(Binary.Decompress(Binary.
+FromText("i45WciwoysxR0lEyVIrViVbyTawEso3AbK/SvFQgxxjKyQHJmIA5jqXppcUlQK4pmBucWlCSmpuUWgQUMQOL+CeX5EP45mC+X34ZTIEFWMAlNRkmYAkxPzGvNLEIZIWhAVjALTWpCCYCc1tRcgaIC3ReLAA=", 
+BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Month = _t, #"Seq." = _t])
