@@ -1,0 +1,7 @@
+SELECT [id] ,[LabourID] ,[name],[dateOfBirth],[dateOfJoining],[projectName],[companyName]
+ ,[SalaryBu],[WorkingBu],[gender],[designationId],[designation] ,[departmentId],[departmentName],[department]
+,[address],[pincode],[state],[labourCategoryId] ,[labourCategory] 
+,[status],[Reject_Reason] ,[workingHours],[labourOwnership]
+,[IsApproved],[Marital_Status]
+,[retirementDate]    
+      FROM [LabourOnboardingForm].[dbo].[labourOnboarding]
