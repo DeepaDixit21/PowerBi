@@ -5,3 +5,20 @@ SELECT [id] ,[LabourID] ,[name],[dateOfBirth],[dateOfJoining],[projectName],[com
 ,[IsApproved],[Marital_Status]
 ,[retirementDate]    
       FROM [LabourOnboardingForm].[dbo].[labourOnboarding]
+
+
+
+SELECT [Id]
+      ,[EmployeeId]
+      ,[PunchDate]
+      ,[InTime]
+      ,[OutTime]
+      ,[ShiftId]
+      ,[TotalHours]
+      ,[IsPresent]
+      ,[AttnStatus_1]
+      ,[AttnStatus_2] 
+      ,[IsMissPunch]
+      ,[IsNoPunch]
+      ,[IsDataRectified]
+  FROM [JDPROJECT].[Payroll].[BiometricAttendance]
